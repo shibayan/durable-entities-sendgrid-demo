@@ -1,4 +1,4 @@
-namespace FunctionApp63
+namespace MailSender.Models
 {
     public class MailMessage
     {

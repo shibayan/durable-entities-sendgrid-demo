@@ -2,6 +2,9 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
+using MailSender.Entities;
+using MailSender.Models;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
@@ -9,7 +12,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 
 using Newtonsoft.Json;
 
-namespace FunctionApp63
+namespace MailSender
 {
     public static class Function1
     {

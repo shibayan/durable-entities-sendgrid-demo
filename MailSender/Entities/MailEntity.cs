@@ -1,12 +1,14 @@
 using System;
 using System.Threading.Tasks;
 
+using MailSender.Models;
+
 using Microsoft.Azure.WebJobs;
 
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace FunctionApp63
+namespace MailSender.Entities
 {
     public class MailEntity
     {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 using Microsoft.Azure.WebJobs;
 
-namespace FunctionApp63
+namespace MailSender.Entities
 {
     public class MailStatusEntity
     {

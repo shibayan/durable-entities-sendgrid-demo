@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace FunctionApp63
+namespace MailSender.Models
 {
     public class EventPayload
     {
